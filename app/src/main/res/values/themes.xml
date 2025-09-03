@@ -6,4 +6,27 @@
     </style>
 
     <style name="Theme._98811_LAB_WEEK_02_B" parent="Base.Theme._98811_LAB_WEEK_02_B" />
+
+    <!--CUSTOM STYLES-->
+
+    <style name="text_input"
+        parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">8dp</item>
+
+    </style>
+
+    <style name="button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+
+    </style>
+
+    <style name="text_display">
+        <item name="android:layout_margin"/>
+    </style>
+
+    <style name="screen_margin">
+        <item name="android:layout_margin">12dp</item>
+    </style>
 </resources>
