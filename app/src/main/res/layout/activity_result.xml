@@ -9,10 +9,24 @@
 
     <TextView
         android:id="@+id/color_code_result_message"
+        style="@style/text_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/white"
         app:layout_constraintBaseline_toBottomOf="parent"
-        style="@style/text_display"
-        android:textColor="@color/white"/>
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/back_button"
+        android:text="Back"
+        app:layout_constraintTop_toBottomOf="@+id/color_code_result_message"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
